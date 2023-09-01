@@ -1,0 +1,60 @@
+@media screen and (max-width: 600px) {
+    body {
+        background-color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:15px;
+        text-align: justify;
+    }
+    .small {
+        display: block;
+    }
+    .medium {
+        display: block;
+    }
+    .large {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    body {
+        background-color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: justify;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .small {
+        width:66%;
+    }
+    .medium {
+        width: 33%;
+    }
+    .large {
+        display:block;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 30px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .small {
+        display:block;
+        width: 33%;
+    }
+    .medium {
+        display:block;
+        width: 33%;
+    }
+    .large {
+        display:block;
+        width: 33%;
+    }
+}
